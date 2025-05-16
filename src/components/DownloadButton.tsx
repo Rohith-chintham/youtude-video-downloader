@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ReloadIcon, DownloadIcon } from "@radix-ui/react-icons";
+import { RefreshCcw as ReloadIcon, Download as DownloadIcon } from "lucide-react";
 
 interface DownloadButtonProps {
   onClick: () => void;

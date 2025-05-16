@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
+import { Search as MagnifyingGlassIcon } from "lucide-react";
 import { isValidYoutubeUrl } from "@/services/youtubeService";
 
 interface YoutubeFormProps {
